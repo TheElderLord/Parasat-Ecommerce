@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+   
+width: 100%;
+height: 50px;
+left: 0px;
+top: 0px;
+
+background: #333333;
+display: flex;
+justify-content: space-between;
+}
+
+
+.logo{
+width: 158.93px;
+height: 34px;
+margin-left: 129px;
+margin-top: 8px;
+}
+.right{
+
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+
+
+}
+::placeholder{
+    color:  #FFFCFC;
+}
+#inputSearch{
+    width: 540px;
+    height: 33px;
+    color:  #FFFCFC;
+background: #444444;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.search{
+
+margin-right: 50px;
+top: 9px;
+font-size: 13px;
+
+}
+#acclink{
+    
+    display: flex;
+}
+.myAcc{
+    padding-right: 50px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+font-family: 'Roboto', sans-serif;
+
+
+}
+.phoneNumber{
+   color: #FFFCFC;
+   margin-right: 129px;
+   font-size: 16px;
+   font-weight: 100;
+line-height: 19px;
+padding-top: 5px;
+font-family: 'Roboto', sans-serif;
+  
+}
+
+
+
+
+/* Subheader */
+
+.subheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.leftsub{
+    font-size: 16px;
+    display: flex;
+    padding-right: 150px;
+    
+}
+
+.rightsub{
+    background: #349E49;
+    padding-right: 70px;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #FFFEFE;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+a+a{
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Main Menu */
+
+.mainMenu{
+    display: flex;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.lefttop{
+    border: #333333;
+    border-style: solid;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 255px;
+    
+
+}
+.leftProd{
+    padding-top: 100px;
+}
+a:link{
+    color: #000000;
+}
+li+li{
+    padding-top: 10px;
+}
+
+
+/* Product list */
+
+.ProductDescription{
+    display: flex;
+}
+.addTo{
+    display: flex;
+    
+}
+
+.numb{
+   
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+
+.products{
+    margin-left: 170px;
+    margin-top: 100px;
+    display: flex;
+}
+.primg{
+    margin-right: 250px;
+}
+
+.Star{
+    margin-top: 20px;
+    margin-bottom:20px;
+    display: flex;
+}
+#outs{
+    text-align: center;
+    margin-bottom:10px ; 
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.card1 {
+    border: 3px solid black;
+}
+a.addCard:link{
+    text-decoration:none ; 
+    color: #FFFEFE;
+}
+a.OneClick:link{
+   text-decoration:none ; color: #000000;
+}
+.pcard{
+ width: 255px;
+ height: 380px;
+}
+.pcard-body{
+  text-align: center; 
+}
+.rightProd{
+    margin-left: 100px;
+    
+}
+.toCard{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 19px;
+color: #FFFCFC;
+background: #333333;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+.butOneClick{
+background: #E9D2D2;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 19px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+}
+
+/* footer */
+
+.footer{
+    margin-top: 250px;
+    padding-top: 10px;
+    padding-right: 150px;
+    background: #333333;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footDesc{
+    color: #FFFCFC;
+}
+ ul { 
+    list-style-type: none; }
+a.footlink:link{
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #FFFCFC !important; 
+
+}
